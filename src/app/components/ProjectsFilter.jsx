@@ -14,7 +14,7 @@ import uiux1 from '../../../public/assets/projects/uiux1.png'
 import uiux2 from '../../../public/assets/projects/uiux2.png'
 import uiux3 from '../../../public/assets/projects/uiux3.png'
 const ProjectsFilter = () => {
-  const [selectedCategory, setSelectedCategory] = useState('App Design');
+  const [selectedCategory, setSelectedCategory] = useState('Web Design');
 
   const projectdata = [
     {
