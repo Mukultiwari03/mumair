@@ -1,0 +1,27 @@
+
+.swiper-pagination-bullet {
+    width: 40px; 
+    height: 15px;
+    background-color: gray; 
+    border-radius: 8px; 
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #FD6F00; 
+  }
+  
+
+  .swiper-slide {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    max-width: 100%;
+    width: 90%; 
+  }
+  
+  .swiper-slide-active {
+    transform: scale(1.1); 
+    width: 100%; 
+  }
+  
+  .swiper-slide:not(.swiper-slide-active) {
+    opacity: 0.7; 
+  } 
