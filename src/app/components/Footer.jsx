@@ -42,7 +42,7 @@ const Footer = ({navItems}) => {
                 </div>
           </div>
 
-          <div className="bg-[#545454] flex items-center justify-center text-white font-light py-3 mt-10">© 2023  <span className="text-orange-500">Mumair </span> All Rights Reserved , Inc.</div>
+          <div className="bg-[#545454] flex items-center justify-center text-white font-light py-3 mt-10">© 2023  <span className="text-orange-500 mx-1">Mumair </span> All Rights Reserved , Inc.</div>
         </footer>
   )
 }
