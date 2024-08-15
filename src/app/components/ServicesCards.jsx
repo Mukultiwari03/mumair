@@ -5,22 +5,22 @@ import three from '../../../public/assets/ServicesSectionIcons/3.png'
 import four from '../../../public/assets/ServicesSectionIcons/4.png'
 const ServicesCards = () => {
     const data = [
-        {
+        {   id:1,
             img:one,
             heading:"UI/UX",
             content:"Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
         },
-        {
+        {   id:2,
             img:two,
             heading:"Web Design",
             content:"Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
         },
-        {
+        {   id:3,
             img:three,
             heading:"App Design",
             content:"Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
         },
-        {
+        {   id:4,
             img:four,
             heading:"Graphic Design",
             content:"Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum"
@@ -37,7 +37,7 @@ const ServicesCards = () => {
             <div className='bg-[#F8F8F8] rounded-lg py-16 px-4 hover:bg-[#ededed]'data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="600"
-            data-aos-easing="ease-in-out">
+            data-aos-easing="ease-in-out" key={item.id}>
              <img src={item.img.src} alt={item.heading} className='h-12 '/>
              <h4 className="text-2xl font-semibold my-4">{item.heading}</h4>
              <p>{item.content}</p>

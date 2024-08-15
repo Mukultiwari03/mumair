@@ -14,7 +14,7 @@ import TestimonialCarousel from "./components/TestimonialCarousel";
 import ServicesCards from "./components/ServicesCards";
 import ProjectFilter from "./components/ProjectsFilter";
 import Footer from "./components/Footer";
-
+import Head from 'next/head';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -34,6 +34,7 @@ const Page = () => {
 
   return (
     <ThemeProvider>
+      <Head><title>Mugs Assigments</title></Head>
       <Header navItems={navItems} />
       <main className="dark:bg-[#1E1E1E]">
         {/* hero section */}
