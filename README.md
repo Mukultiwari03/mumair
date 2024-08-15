@@ -1,8 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Landing Page Replication
+
+This project is a Next.js portfolio landing page replicated from a provided Figma design. It demonstrates my ability to accurately translate a UI design into a fully responsive and functional web page, optimized for performance and SEO.
+
+## Project Overview
+
+This project is a  replication of a portfolio landing page based on a Figma design. It is developed using the Next.js framework, ensuring smooth navigation, responsive design, and optimized performance. The page is broken down into reusable components, each structured for easy maintenance and scalability.
+
+## Features
+
+- Responsive Design: Ensures an optimal user experience across all devices and screen sizes.
+- Smooth Animations: Implemented using the AOS (Animate On Scroll) library for subtle scroll animations.
+- Google Fonts Integration: Custom fonts are managed using the [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) package.
+- Modular Components: The page is divided into well-structured and reusable components.
+- Hosted on Vercel: The live project is hosted on Vercel for easy access.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server locally:
 
 ```bash
 npm run dev
@@ -14,23 +28,30 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After running the command, open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the application by modifying `app/page.tsx`. The page auto-updates as you make changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Directory Structure
 
-## Learn More
+The project is organized with a clean and scalable directory structure:
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js - for server-side rendering, static site generation, and optimized performance.
+- Tailwind CSS - for styling and responsive design.
+- AOS Library - for scroll-based animations.
+- React Icons - for visually appealing icons that enhance the UI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## How to Use
 
-## Deploy on Vercel
+- Navigate: Use the navigation menu to explore different sections like "About Me," "Projects," and "Contact."
+- Responsive Layout: The layout adapts smoothly across different screen sizes.
+- Animations: Scroll through the page to experience subtle, smooth animations.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is deployed on Vercel. You can view the live website at the following link:
+
+[[Live Website](#)](https://mumair-ten.vercel.app/)
+
