@@ -8,13 +8,11 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import Link from "next/link";
 import aboutImg from "../../public/assets/aboutImg.png";
 import TestimonialCarousel from "./components/TestimonialCarousel";
 import ServicesCards from "./components/ServicesCards";
 import ProjectFilter from "./components/ProjectsFilter";
 import Footer from "./components/Footer";
-import Head from 'next/head';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -34,7 +32,6 @@ const Page = () => {
 
   return (
     <ThemeProvider>
-      <Head><title>Mugs Assigments</title></Head>
       <Header navItems={navItems} />
       <main className="dark:bg-[#1E1E1E]">
         {/* hero section */}
