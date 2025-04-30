@@ -11,7 +11,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import aboutImg from "../../public/assets/aboutImg.png";
 import TestimonialCarousel from "./components/TestimonialCarousel";
 import ServicesCards from "./components/ServicesCards";
-import ProjectFilter from "./components/ProjectsFilter";
+import ProjectFilter from "./components/ProjectsFilter";  
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
